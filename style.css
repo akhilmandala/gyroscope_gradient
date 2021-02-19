@@ -1,0 +1,47 @@
+* {
+    color:white;
+    background-color: black;  
+    font-family: Monaco, monospace;
+  
+  }
+  
+  #main {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  
+  #params {
+    font-size: 12px;
+    text-align: left;
+  }
+  #params input{
+    width: 80px;
+    border: 1px solid gray;
+  }
+  
+  #buttons {
+    text-align: left;
+  }
+  
+  body {
+    background-color: black;
+    font-family: monospace;
+    padding: 3em
+  }
+  
+  th {
+    text-align: left;
+    padding-top: 2ex;
+    font-size: 16px;
+    text-decoration: underline
+  }
+  
+  button {
+    border: 1px solid white;
+  }
+  
+  button:hover {  
+    border: 1px solid white;
+    background-color: #555;
+  }
+  
